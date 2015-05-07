@@ -1,0 +1,18 @@
+{%  extends 'dndapp/base.html' %}
+{% block content %}
+    <p></p>
+    <table class="table table-hover">
+        <tr>
+            {% for field in field_order %}
+                <th>{{ field }}</th>
+            {% endfor %}
+        </tr>
+        {% for character in character_table %}
+            <tr>
+                {% for field in character %}
+                    <td>{{ field }}</td>
+                {% endfor %}
+            </tr>
+        {% endfor %}
+    </table>
+{%  endblock content %}

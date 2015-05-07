@@ -1,0 +1,61 @@
+.page-header {
+    height: 125px;
+    background-color: #fc0a1d;
+    background-image: url("http://dnd.wizards.com/sites/default/files/media/styles/news_banner_header/public/default_images/_Header_Article_Template.jpg");
+    background-position: center;
+    margin-top: 0;
+    padding: 20px 20px 20px 40px;
+}
+
+.page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
+    color: #fc0a1d;
+    font-size: 36pt;
+    text-decoration: none;
+    font-family: 'Lobster'
+}
+
+body a {
+    color: #fc0a1d;
+    font-family: 'Lobster';
+}
+
+form a {
+    font-family: 'Helvetica';
+}
+
+h1 {
+    color: #fc0a1d;
+    font-family: 'Lobster';
+}
+
+table, th, td {
+   border: 1px solid #000000;
+    table-layout: fixed; width: 100px;
+    font-family: 'Lusitana Regular', 'Helvetica', 'Lobster';
+
+}
+
+body {
+    background:
+        linear-gradient(-90deg, rgba(0, 0, 0, .03) 1px, transparent 1px),
+        linear-gradient(rgba(0, 0, 0, .03) 1px, transparent 1px),
+        linear-gradient(-90deg, rgba(0, 0, 0, .03) 1px, transparent 1px),
+        linear-gradient(rgba(0, 0, 0, .03) 1px, transparent 1px),
+        linear-gradient(transparent 3px, transparent 3px, transparent 78px, transparent 78px),
+        linear-gradient(-90deg, transparent 1px, transparent 1px),
+        linear-gradient(-90deg, transparent 3px, transparent 3px, transparent 78px, transparent 78px),
+        linear-gradient(transparent 1px, transparent 1px), transparent;
+    background-size:
+        20px 20px,
+        20px 20px,
+        20px 20px,
+        20px 20px,
+        20px 20px,
+        20px 20px,
+        20px 20px,
+        20px 20px;
+}
+
+p {
+    font-family: 'Lusitana Regular'
+}

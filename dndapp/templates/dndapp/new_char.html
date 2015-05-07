@@ -1,0 +1,14 @@
+{% extends 'dndapp/base.html' %}
+{% block content %}
+    <h1>New Character</h1>
+    <p></p>
+    <p>The attributes are rolled for randomly.</p>
+    <p>However, if you do not like the roll for your attribute you may adjust it.</p>
+    <p>The minimum value must be 6 and the maximum value is 18.</p>
+    <form method="POST" class="post-form">{% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit" class="save btn btn-success">Create Character</button>
+        &nbsp&nbsp&nbsp
+        <a href="{% url 'dndapp.views.char_list' %}" role="button" class="btn btn-danger btn-large">Cancel</a>
+    </form>
+{% endblock %}

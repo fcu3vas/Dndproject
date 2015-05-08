@@ -1,0 +1,5 @@
+This app project requires:
+
+Django 1.8
+
+Python 3.4.3
